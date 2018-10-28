@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BuildNetFrameworkExe",
+            "type":"clr",
+            "request": "launch",
+            "preLaunchTask": "BuildNetFramework",
+            "program": "${workspaceFolder}/IntroToRx/bin/Debug/IntroToRx.exe",
+            "args":[],
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
